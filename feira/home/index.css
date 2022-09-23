@@ -13,14 +13,20 @@
     margin: 0px ;
 }
 
+body{
+    background-image: url('../assets/images/background.svg');
+    background-size: 100em;
+    background-position: -5em;
+    background-repeat: no-repeat;
+    height: 19em;
+    }
+
 .home{
     width: 100vw;
     height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
-    background-image: url(../assets/images/azulgrande.svg);
-    background-repeat: no-repeat;
 }
 
 .frente{
@@ -36,21 +42,36 @@
     padding: 2em;
 
 
-    font-family: 'inter-bold'
+    font-family: 'LexendD';
+}
+
+.botao{
+    
 }
 
 h3{
-    width: 10em;
-    font-size: 2.5em;
+    font-size: 2.2em;
+    margin-bottom: 1em;
 }
 
 img{
     height: 13em;
 }
-a{    
-    font-size: 1.2em;
+a{  
+    color: #095986;
+    background-color: white;
+    border: 2px solid rgb(185, 185, 185);  
+    font-size: 1.1em;
     font-family: 'inter-regular';  
-     color: rgb(38, 38, 38);
+    border-radius: 2.2em;
      text-decoration: none;
      padding: 1em;
+     box-shadow: 2px 2px 2px 2px rgb(231, 231, 231);
+}
+
+a:hover{
+    background-color: #095986;
+    color: white;
+    border: 0px;  
+    transition: 0.3s;
 }
