@@ -1,0 +1,50 @@
+body{
+background-image: url('../assets/images/background.svg');
+background-size: 100em;
+background-position: -5em;
+background-repeat: no-repeat;
+}
+
+.home-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 4em;
+}
+
+.card-filme{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgb(185, 185, 185);
+    background-color: white;
+    border-radius: 35px;
+    box-shadow: 2px 2px 2px 2px rgb(185, 185, 185);
+}
+
+.card-textos{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+img{
+    height: 15em;
+    border-radius: 35px 35px 0px 0px;
+}
+
+p{
+    width: 28em;
+    margin-bottom: 2em;
+    font-family: 'InterR';
+    font-size: 12px;
+}
+
+h3{
+    font-family: 'LexendD';
+    font-size: 1.3em;
+    color: rgb(22, 22, 134);
+}
