@@ -1,7 +1,12 @@
 @font-face {
-    font-family: "Adaylson-lINDO";
+    font-family: "inter-regular";
     src: url(../assets/fonts/Inter-Regular.ttf);
 }
+@font-face {
+    font-family: "inter-bold";
+    src: url(../assets/fonts/Inter-Bold.ttf);
+}
+
 
 *{
     box-sizing: border-box;
@@ -10,10 +15,12 @@
 
 .home{
     width: 100vw;
-    height: 80vh;
+    height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
+    background-image: url(../assets/images/azulgrande.svg);
+    background-repeat: no-repeat;
 }
 
 .frente{
@@ -26,15 +33,24 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 2em;
 
 
-    font-family: 'Adaylson-lINDO'
+    font-family: 'inter-bold'
 }
 
 h3{
     width: 10em;
+    font-size: 2.5em;
 }
 
 img{
-    height: 10em;
+    height: 13em;
+}
+a{    
+    font-size: 1.2em;
+    font-family: 'inter-regular';  
+     color: rgb(38, 38, 38);
+     text-decoration: none;
+     padding: 1em;
 }
